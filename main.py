@@ -143,9 +143,6 @@ def generate_work_description(
     - DON'T mention what the project is about (for example, saying that SIPE is HR software)
     - DON'T mention the duration of the work in each file 
 
-    Good description: "Listar empresas cadastradas, cadastrar dispositivos e permitir autenticação via token. Também foram feitas modificações nos processos de autorização e na seleção de métodos de pagamento na assinatura.", "Alterações nos arquivos relacionados à gestão de assinaturas e locatários, incluindo otimizações em endpoints, validações de dados e definição de preço para plano experimental como zero. Novas funcionalidades como tratamento de erros para tenantes inexistentes e verificação de duplicidade de CNPJ.
-    Bad description exercepts: "Este trabalho contribui para aprimorar a integridade e funcionalidade dos serviços SIPE, um software de RH para controle de ponto dos colaboradores.", "Foram feitas diversas atualizações nos arquivos de código-fonte de diversos componentes do projeto SIPE"
-
     Files worked on (with duration):
     {", ".join(f"{entity} ({duration})" for entity, duration in entities_and_duration)}
     
